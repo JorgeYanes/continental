@@ -168,15 +168,15 @@ export default function App() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-slate-950 flex flex-col items-center justify-center text-emerald-500">
-        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-emerald-500 mb-4"></div>
-        <p className="font-bold text-lg animate-pulse">Cargando base de datos del casino...</p>
+      <div className="min-h-screen bg-casino-950 flex flex-col items-center justify-center text-brass-500">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-brass-500 mb-4"></div>
+        <p className="font-bold text-lg animate-pulse font-mono tracking-widest">CARGANDO...</p>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-200 font-sans selection:bg-emerald-500/30">
+    <div className="min-h-screen bg-casino-950 text-ivory font-sans selection:bg-brass-500/30">
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
 
       {/* Contenido Principal */}

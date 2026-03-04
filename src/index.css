@@ -1,5 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
 @theme {
   --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Color World: Deep Casino Green, Brass/Gold, Crimson, Ivory */
+  --color-casino-950: #061c13;
+  --color-casino-900: #0a2d20;
+  --color-casino-800: #104230;
+  --color-casino-700: #16654a;
+
+  --color-brass-400: #fbbf24;
+  --color-brass-500: #f59e0b;
+  --color-brass-600: #d97706;
+
+  --color-ivory: #fafaf9;
+  --color-ivory-muted: #d6d3d1;
+
+  --color-crimson-500: #ef4444;
+  --color-crimson-600: #dc2626;
+  --color-crimson-900: #7f1d1d;
+}
+
+* {
+  border-color: rgba(217, 119, 6, 0.15);
+  /* Subtle brass separation by default */
+}
+
+body {
+  background-color: var(--color-casino-950);
+  color: var(--color-ivory);
 }
